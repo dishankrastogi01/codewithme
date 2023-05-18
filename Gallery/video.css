@@ -1,0 +1,227 @@
+.container{
+    width: 1250px;
+    margin: auto;
+    }
+    @media(max-width:1250px){
+        .container{
+            width: 95%;
+        }
+    }
+    .Hrctn{
+        display: flex;
+        padding: 0px 22px;
+        justify-content: end;
+    }
+    hr{
+        margin: 14px 0px;
+        width: 100px;
+        color: aquamarine;
+        text-align: center;
+   }
+    .navbar{
+        margin: auto;
+        height: 44px;
+        width: 100%;
+        border: 0px solid gray;
+    }
+
+    ul{
+        padding: 9px  22px;
+        align-items: center;
+        display: flex;
+        justify-content: end;
+    
+    }
+    ul li{
+        margin: auto 16px;
+        list-style-type: none;
+        text-transform: none;
+    }
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight:600;
+        font-size: 18px;
+
+    }
+    .svg img{
+        height: 8px;
+        width: 12px;
+        margin-left: 6px;
+    }
+    .dropdown {
+    position: relative;
+    padding: 3px 0px;
+    display: flex;
+
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #252121;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    }
+    .dropdown-content p{
+        padding: 9px 0px;
+        color: white;
+        border-bottom: 1px solid rgb(122, 121, 121);
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    top:27px;
+    
+    }
+       /* gallerylink  */
+       .p-g a{
+    color: white;
+    text-decoration: none;
+    }
+    .v-g a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* jewellerylink */
+    .g-j a{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        }
+    .d-j a{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+    .pg-j a{
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    /* contact */
+    
+    .contact-ctn{
+        margin-top: 18px;
+        padding: 16px 12px;
+        background: gainsboro;
+    }
+    .contact-ctn h1{
+        text-align: center;
+    }
+
+
+
+
+            /* footer */
+
+            .footer{
+        margin: auto;
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+        background: #98e6db;
+    }
+
+    .cont{
+        padding: 33px 64px;
+        display: flex;
+        justify-content: space-between;
+    }
+    h5{
+        margin-bottom: 18px;
+        font-size: 17px;
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+    }
+    .para span{
+        margin: 6px 0px;
+    
+    }
+    .para a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* footer-down */
+    .down-footer{
+        margin: auto;
+        display: flex;
+        height: 66px;
+        width: 97%;
+        align-items: center;
+        padding: 22px 33px;
+    justify-content: space-between;
+    }
+
+    #detail-1{
+        text-align: center;
+    }
+    #detail-1 a{
+        color: black;
+        text-decoration: none;
+    }
+    #detail-2{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #logo-1{
+        width: 60px;
+        height: 50px;
+        margin: 0px 8px;
+    }
+    #logo-2{
+        width: 60px;
+        height: 50px;
+        margin: 0px 8px;
+    }
+    #logo-3{
+        width: 60px;
+        height: 50px;
+        margin: 0px 8px;
+    }
+    #logo-4{
+        width: 110px;
+        height: 50px;
+
+    }
+    img{
+        width:100%;
+    }
+    #detail-3 a{
+        color: black;
+        margin:0px 6px;
+        padding: 0px 8px;
+        border-right: 1px solid gray;
+        text-decoration: none;
+    }
+  /* videogallery */
+    .Video-gallery{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .grid-area{
+        display: grid;
+        width: 87%;
+        margin:42px auto;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .imgctn{
+        width: 346px;
+        height: 346px;
+        box-shadow: 0px 3px 4px rgb(176, 171, 171);
+
+    }
+    .imgctn img{
+        width: 100%;
+        height: 100%;
+    }
